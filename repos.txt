@@ -56,7 +56,7 @@ jenkinsci/kubernetes-operator
 k8gb-io/k8gb
 krallistic/kafka-operator
 strimzi/strimzi-kafka-operator
-banzaicloud/kafka-operator
+banzaicloud/koperator
 kanisterio/kanister
 patoarvizu/kms-vault-operator
 stakater/konfigurator
