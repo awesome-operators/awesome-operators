@@ -161,3 +161,4 @@ TykTechnologies/tyk-operator
 movetokube/postgres-operator
 minio/operator
 ongres/stackgres
+reactive-tech/kubegres
