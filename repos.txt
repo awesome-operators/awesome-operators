@@ -163,3 +163,4 @@ movetokube/postgres-operator
 minio/operator
 ongres/stackgres
 reactive-tech/kubegres
+confluentinc/operator-earlyaccess
