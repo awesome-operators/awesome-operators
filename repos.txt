@@ -123,7 +123,7 @@ radanalyticsio/spark-operator
 mesosphere/kudo-spark-operator
 storageos/cluster-operator
 libopenstorage/stork
-kubeflow/tf-operator
+kubeflow/training-operator
 hashicorp/terraform-k8s
 isaaguilar/terraform-operator
 pingcap/tidb-operator
