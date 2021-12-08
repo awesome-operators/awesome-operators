@@ -70,6 +70,7 @@ whyseco/mailgun-operator
 ianlewis/memcached-operator
 mongodb/mongodb-enterprise-kubernetes
 mongodb/mongodb-kubernetes-operator
+mongodb/mongodb-atlas-kubernetes
 kbst/mongodb
 Ultimaker/k8s-mongo-operator
 deepinsight/mxnet-operator
