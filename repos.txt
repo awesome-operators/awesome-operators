@@ -48,7 +48,7 @@ halkyonio/operator
 hazelcast/hazelcast-operator
 banzaicloud/hpa-operator
 IBM/ibm-block-csi-operator
-searchlight/icinga-operator
+searchlight/searchlight
 influxdata/influxdb-operator
 banzaicloud/istio-operator
 jaegertracing/jaeger-operator
