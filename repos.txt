@@ -29,7 +29,6 @@ kloeckner-i/db-operator
 deepfabric/elasticell-operator
 elastic/cloud-on-k8s
 upmc-enterprises/elasticsearch-operator
-jetstack/navigator
 teseraio/ensemble
 solo-io/envoy-operator
 coreos/etcd-operator
