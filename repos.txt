@@ -164,3 +164,4 @@ ongres/stackgres
 reactive-tech/kubegres
 confluentinc/operator-earlyaccess
 digitalocean/do-operator
+github.com/fluxcd/flux2
