@@ -163,3 +163,4 @@ minio/operator
 ongres/stackgres
 reactive-tech/kubegres
 confluentinc/operator-earlyaccess
+digitalocean/do-operator
