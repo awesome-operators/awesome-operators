@@ -64,7 +64,7 @@ upmc-enterprises/kong-operator
 kubevirt/kubevirt
 kudobuilder/kudo
 banzaicloud/logging-operator
-krestomatio/m4e-operator
+krestomatio/moodle-operator
 whyseco/mailgun-operator
 ianlewis/memcached-operator
 mongodb/mongodb-enterprise-kubernetes
