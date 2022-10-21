@@ -112,7 +112,7 @@ apache/rocketmq-operator
 rook/rook
 scylladb/scylla-operator
 geritol/secret-backup-operator
-amaizfinance/secreter
+nrvnrvn/secreter
 slok/service-level-operator
 flant/shell-operator
 craftypath/sops-operator
