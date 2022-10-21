@@ -61,7 +61,6 @@ kanisterio/kanister
 patoarvizu/kms-vault-operator
 stakater/konfigurator
 upmc-enterprises/kong-operator
-kubedb/operator
 kubevirt/kubevirt
 kudobuilder/kudo
 banzaicloud/logging-operator
