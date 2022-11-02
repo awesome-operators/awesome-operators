@@ -163,5 +163,5 @@ ongres/stackgres
 reactive-tech/kubegres
 confluentinc/operator-earlyaccess
 digitalocean/do-operator
-github.com/fluxcd/flux2
-github.com/strimzi/strimzi-kafka-operator
+fluxcd/flux2
+strimzi/strimzi-kafka-operator
