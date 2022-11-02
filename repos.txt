@@ -164,4 +164,3 @@ reactive-tech/kubegres
 confluentinc/operator-earlyaccess
 digitalocean/do-operator
 fluxcd/flux2
-strimzi/strimzi-kafka-operator
