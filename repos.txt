@@ -165,3 +165,4 @@ confluentinc/operator-earlyaccess
 digitalocean/do-operator
 fluxcd/flux2
 pulp/pulp-operator
+scaleway/scaleway-operator
