@@ -166,3 +166,4 @@ digitalocean/do-operator
 fluxcd/flux2
 pulp/pulp-operator
 scaleway/scaleway-operator
+scylladb/scylla-operator
