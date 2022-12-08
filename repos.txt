@@ -167,3 +167,10 @@ fluxcd/flux2
 pulp/pulp-operator
 scaleway/scaleway-operator
 scylladb/scylla-operator
+open-telemetry/opentelemetry-operator
+apache/flink-kubernetes-operator
+tigera/operator
+ansible/awx-operator
+metal3-io/baremetal-operator
+NVIDIA/gpu-operator
+mysql/mysql-operator
