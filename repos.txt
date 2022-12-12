@@ -174,3 +174,4 @@ ansible/awx-operator
 metal3-io/baremetal-operator
 NVIDIA/gpu-operator
 mysql/mysql-operator
+aiven/aiven-operator
