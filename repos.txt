@@ -62,7 +62,7 @@ stakater/konfigurator
 upmc-enterprises/kong-operator
 kubevirt/kubevirt
 kudobuilder/kudo
-banzaicloud/logging-operator
+kube-logging/logging-operator
 krestomatio/moodle-operator
 whyseco/mailgun-operator
 ianlewis/memcached-operator
