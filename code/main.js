@@ -1,30 +1,17 @@
-const https = require('https')
+import { request } from 'https';
 
-const fs = require('fs');
-const readline = require('readline');
-
-async function processLineByLine() {
-    const fileStream = fs.createReadStream('repos.txt');
-
-    const rl = readline.createInterface({
-        input: fileStream,
-        crlfDelay: Infinity
-    });
-    let repos = []
-    for await (const line of rl) {
-        repos.push(line)
-    }
-    return repos
-}
+import { createReadStream, readFile, writeFile } from 'fs';
+import { createInterface } from 'readline';
 
 
+// main
 async function queryAll() {
-    repos = await processLineByLine();
+    let repos = await readRepos();
     console.log(repos)
 
     let stats = []
     for (const reponame of repos) {
-        let stat = await queryRepoStats(reponame)
+        let stat = await queryRepoStatsFromGithub(reponame)
         stats.push(stat)
     }
     // remove empty
@@ -32,19 +19,37 @@ async function queryAll() {
     // sort by stargazers
     stats = stats.sort((a, b) => b.stargazers_count - a.stargazers_count);
 
-    console.log("\n---")
-    console.log("| Github | Description | License | Stargazers | Last Update |")
-    console.log("|--------|-------------|---------|------------|-------------|")
+    let statsOutput = "\n"
+    statsOutput += "| Github | Description | License | Stargazers | Last Update |\n"
+    statsOutput += "|--------|-------------|---------|------------|-------------|\n"
     stats.forEach(stat => {
-        console.log("| [" + stat.full_name + "](https://github.com/" + stat.full_name + ")"
+        statsOutput += "| [" + stat.full_name + "](https://github.com/" + stat.full_name + ")"
             + " | " + stat.description
             + " | " + stat.license
             + " | " + stat.stargazers_count
-            + " | " + stat.updated_at.split('T')[0] + " |")
+            + " | " + stat.updated_at.split('T')[0] + " |\n"
     });
-}
 
-async function queryRepoStats(reponame, cb) {
+    readFile('README-template.md', 'utf8', (err, template) => {
+        if (err) {
+            console.error('Error while reading file:', err);
+        } else {
+            writeFile("README.md", template + statsOutput, (err) => {
+                if (err)
+                    console.log(err);
+                else {
+                    console.log("File written successfully\n");
+                }
+            });
+
+        }
+    });
+
+}
+queryAll()
+
+
+async function queryRepoStatsFromGithub(reponame, cb) {
     return new Promise((resolve, reject) => {
 
         const options = {
@@ -58,7 +63,7 @@ async function queryRepoStats(reponame, cb) {
             }
         }
         process.stdout.write(".");
-        const req = https.request(options, res => {
+        const req = request(options, res => {
             let body = "";
             let status = res.statusCode
             let stats = {}
@@ -104,4 +109,16 @@ async function queryRepoStats(reponame, cb) {
 
 }
 
-queryAll()
+async function readRepos() {
+    const fileStream = createReadStream('repos.txt');
+
+    const rl = createInterface({
+        input: fileStream,
+        crlfDelay: Infinity
+    });
+    let repos = []
+    for await (const line of rl) {
+        repos.push(line)
+    }
+    return repos
+}
