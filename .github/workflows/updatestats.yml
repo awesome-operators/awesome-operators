@@ -15,6 +15,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.ref_name }}
     - run: |
        git config --global user.email "update-stats@github-action.com"
        git config --global user.name "GH Action: Update Stats"
