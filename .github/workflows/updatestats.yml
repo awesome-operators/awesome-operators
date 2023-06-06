@@ -15,9 +15,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
-    - name: Run
-      run: make
-
-    - name: Diff
-      run: git diff
+    - run: make
+    - run: git diff
+    - run: git add README.md
+    - run: git commit -m "Update status"
+    - run: git push origin master
