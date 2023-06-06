@@ -1,4 +1,4 @@
-name: Makefile CI
+name: Update Stats
 
 on:
   push:
@@ -18,3 +18,6 @@ jobs:
 
     - name: Run
       run: make
+
+    - name: Diff
+      run: git diff
