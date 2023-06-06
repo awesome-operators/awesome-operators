@@ -15,6 +15,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - run: |
+       git config --global user.email "update-stats@github-action.com"
+       git config --global user.name "GH Action: Update Stats"
     - run: make
     - run: git diff
     - run: git add README.md
