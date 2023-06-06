@@ -11,8 +11,15 @@ async function queryAll() {
 
     let stats = []
     for (const reponame of repos) {
-        let stat = await queryRepoStatsFromGithub(reponame)
-        stats.push(stat)
+        try {
+            let stat = await queryRepoStatsFromGithub(reponame)
+            stats.push(stat)
+        }
+        catch (error) {
+            console.log("Fatal error")
+            console.log(error)
+            process.exit(1)
+        }
     }
     // remove empty
     stats = stats.filter(value => Object.keys(value).length !== 0);
@@ -59,7 +66,7 @@ async function queryRepoStatsFromGithub(reponame, cb) {
             method: 'GET',
             headers: {
                 "User-Agent": "luebken-awesome-operators",
-                "Authorization": "token " + process.env.GITHUB_TOKEN
+                "Authorization": "token " + process.env.ACCESS_TOKEN
             }
         }
         process.stdout.write(".");
@@ -88,6 +95,9 @@ async function queryRepoStatsFromGithub(reponame, cb) {
                             //console.log(reponame + " archived")
                             resolve({})
                         }
+                    } else if (status == 401) {
+                        console.log(reponame + " status " + status)
+                        reject()
                     } else {
                         console.log(reponame + " status " + status)
                         resolve({})

@@ -1,0 +1,27 @@
+name: Update Stats
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    env:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: master
+    - run: |
+       git config --global user.email "update-stats@github-action.com"
+       git config --global user.name "GH Action: Update Stats"
+    - run: make
+    - run: git diff
+    - run: git add README.md
+    - run: git commit -m "Update status"
+    - run: git push origin master

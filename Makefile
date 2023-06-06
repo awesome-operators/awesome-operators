@@ -1,3 +1,3 @@
-# Prerequisite: set env GITHUB_TOKEN
+# Prerequisite: set env ACCESS_TOKEN
 default:
 	node ./code/main.js
