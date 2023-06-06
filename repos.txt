@@ -175,3 +175,4 @@ metal3-io/baremetal-operator
 NVIDIA/gpu-operator
 mysql/mysql-operator
 Mellanox/network-operator
+aiven/aiven-operator
