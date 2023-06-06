@@ -22,4 +22,4 @@ jobs:
     - run: git diff
     - run: git add README.md
     - run: git commit -m "Update status"
-    - run: git push origin master
+    - run: git push origin
