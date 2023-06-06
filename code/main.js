@@ -89,8 +89,16 @@ async function queryRepoStatsFromGithub(reponame, cb) {
                             if (json.license)
                                 stats.license = json.license.spdx_id
                             stats.updated_at = json.updated_at
+                            
+                            // Only add repos which have been updated in the last 6 months
+                            let sixMonthsAgo = new Date().setMonth(new Date().getMonth() - 6);
+                            let updatedAt = new Date(json.updated_at)
+                            if (updatedAt < sixMonthsAgo) {
+                                resolve({})
+                            } else {
+                                resolve(stats)
+                            }
 
-                            resolve(stats)
                         } else {
                             //console.log(reponame + " archived")
                             resolve({})
