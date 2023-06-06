@@ -8,8 +8,10 @@ on:
 
 jobs:
   update-stats:
-
     runs-on: ubuntu-latest
+
+    env:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
     steps:
     - uses: actions/checkout@v3

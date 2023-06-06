@@ -59,7 +59,7 @@ async function queryRepoStatsFromGithub(reponame, cb) {
             method: 'GET',
             headers: {
                 "User-Agent": "luebken-awesome-operators",
-                "Authorization": "token " + process.env.GITHUB_TOKEN
+                "Authorization": "token " + process.env.ACCESS_TOKEN
             }
         }
         process.stdout.write(".");
