@@ -176,3 +176,4 @@ NVIDIA/gpu-operator
 mysql/mysql-operator
 Mellanox/network-operator
 aiven/aiven-operator
+grafana/tempo-operator
