@@ -5,64 +5,64 @@
 This lists Operators seen in the wild and which have been updated in the last 6 months. If you see an Operator missing please send a pull request against [repos.txt](repos.txt). Note that this is a fork from the archived https://github.com/operator-framework/awesome-operators.
 | Github | Description | License | Stargazers | Last Update |
 |--------|-------------|---------|------------|-------------|
-| [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | Declarative continuous deployment for Kubernetes. | Apache-2.0 | 13654 | 2023-07-26 |
-| [rook/rook](https://github.com/rook/rook) | Storage Orchestration for Kubernetes | Apache-2.0 | 11158 | 2023-07-24 |
-| [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | Automatically provision and manage TLS certificates in Kubernetes | Apache-2.0 | 10566 | 2023-07-25 |
-| [openebs/openebs](https://github.com/openebs/openebs) | Leading Open Source Container Attached Storage, built using Cloud Native Architecture, simplifies running Stateful Applications on Kubernetes. | Apache-2.0 | 8223 | 2023-07-26 |
-| [prometheus-operator/prometheus-operator](https://github.com/prometheus-operator/prometheus-operator) | Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes | Apache-2.0 | 8164 | 2023-07-25 |
-| [vmware-tanzu/velero](https://github.com/vmware-tanzu/velero) | Backup and migrate Kubernetes applications and their persistent volumes | Apache-2.0 | 7512 | 2023-07-25 |
-| [kedacore/keda](https://github.com/kedacore/keda) |  KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes  | Apache-2.0 | 6616 | 2023-07-25 |
-| [fluxcd/flux2](https://github.com/fluxcd/flux2) | Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit. | Apache-2.0 | 5095 | 2023-07-25 |
-| [pixie-io/pixie](https://github.com/pixie-io/pixie) | Instant Kubernetes-Native Application Observability | Apache-2.0 | 4741 | 2023-07-25 |
-| [kubevirt/kubevirt](https://github.com/kubevirt/kubevirt) | Kubernetes Virtualization API and runtime in order to define and manage virtual machines. | Apache-2.0 | 4375 | 2023-07-25 |
-| [strimzi/strimzi-kafka-operator](https://github.com/strimzi/strimzi-kafka-operator) | Apache Kafka® running on Kubernetes | Apache-2.0 | 3953 | 2023-07-25 |
-| [zalando/postgres-operator](https://github.com/zalando/postgres-operator) | Postgres operator creates and manages PostgreSQL clusters running in Kubernetes | MIT | 3433 | 2023-07-26 |
+| [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | Declarative continuous deployment for Kubernetes. | Apache-2.0 | 13667 | 2023-07-27 |
+| [rook/rook](https://github.com/rook/rook) | Storage Orchestration for Kubernetes | Apache-2.0 | 11162 | 2023-07-26 |
+| [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | Automatically provision and manage TLS certificates in Kubernetes | Apache-2.0 | 10565 | 2023-07-26 |
+| [openebs/openebs](https://github.com/openebs/openebs) | Leading Open Source Container Attached Storage, built using Cloud Native Architecture, simplifies running Stateful Applications on Kubernetes. | Apache-2.0 | 8225 | 2023-07-26 |
+| [prometheus-operator/prometheus-operator](https://github.com/prometheus-operator/prometheus-operator) | Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes | Apache-2.0 | 8168 | 2023-07-26 |
+| [vmware-tanzu/velero](https://github.com/vmware-tanzu/velero) | Backup and migrate Kubernetes applications and their persistent volumes | Apache-2.0 | 7513 | 2023-07-26 |
+| [kedacore/keda](https://github.com/kedacore/keda) |  KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes  | Apache-2.0 | 6620 | 2023-07-26 |
+| [fluxcd/flux2](https://github.com/fluxcd/flux2) | Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit. | Apache-2.0 | 5099 | 2023-07-26 |
+| [pixie-io/pixie](https://github.com/pixie-io/pixie) | Instant Kubernetes-Native Application Observability | Apache-2.0 | 4742 | 2023-07-26 |
+| [kubevirt/kubevirt](https://github.com/kubevirt/kubevirt) | Kubernetes Virtualization API and runtime in order to define and manage virtual machines. | Apache-2.0 | 4379 | 2023-07-26 |
+| [strimzi/strimzi-kafka-operator](https://github.com/strimzi/strimzi-kafka-operator) | Apache Kafka® running on Kubernetes | Apache-2.0 | 3956 | 2023-07-26 |
+| [zalando/postgres-operator](https://github.com/zalando/postgres-operator) | Postgres operator creates and manages PostgreSQL clusters running in Kubernetes | MIT | 3435 | 2023-07-26 |
 | [CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) | Production PostgreSQL for Kubernetes, from high availability Postgres clusters to full-scale database-as-a-service. | Apache-2.0 | 3362 | 2023-07-26 |
-| [open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Gatekeeper - Policy Controller for Kubernetes | Apache-2.0 | 3167 | 2023-07-25 |
-| [external-secrets/external-secrets](https://github.com/external-secrets/external-secrets) | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets. | Apache-2.0 | 2925 | 2023-07-25 |
+| [open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Gatekeeper - Policy Controller for Kubernetes | Apache-2.0 | 3169 | 2023-07-26 |
+| [external-secrets/external-secrets](https://github.com/external-secrets/external-secrets) | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets. | Apache-2.0 | 2931 | 2023-07-26 |
 | [GoogleCloudPlatform/spark-on-k8s-operator](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator) | Kubernetes operator for managing the lifecycle of Apache Spark applications on Kubernetes.  | Apache-2.0 | 2395 | 2023-07-25 |
 | [elastic/cloud-on-k8s](https://github.com/elastic/cloud-on-k8s) | Elastic Cloud on Kubernetes | NOASSERTION | 2266 | 2023-07-25 |
 | [flant/shell-operator](https://github.com/flant/shell-operator) | Shell-operator is a tool for running event-driven scripts in a Kubernetes cluster | Apache-2.0 | 2078 | 2023-07-25 |
 | [openfaas/faas-netes](https://github.com/openfaas/faas-netes) | Serverless Functions For Kubernetes | MIT | 2054 | 2023-07-25 |
 | [Altinity/clickhouse-operator](https://github.com/Altinity/clickhouse-operator) | Altinity Kubernetes Operator for ClickHouse creates, configures and manages ClickHouse clusters running on Kubernetes | Apache-2.0 | 1352 | 2023-07-25 |
 | [kubeflow/training-operator](https://github.com/kubeflow/training-operator) | Training operators on Kubernetes. | Apache-2.0 | 1293 | 2023-07-25 |
-| [FairwindsOps/rbac-manager](https://github.com/FairwindsOps/rbac-manager) | A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. | Apache-2.0 | 1268 | 2023-07-21 |
-| [spotahome/redis-operator](https://github.com/spotahome/redis-operator) | Redis Operator creates/configures/manages high availability redis with sentinel automatic failover atop Kubernetes. | Apache-2.0 | 1263 | 2023-07-25 |
-| [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) | Logging operator for Kubernetes | Apache-2.0 | 1193 | 2023-07-25 |
-| [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres) | Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup. | Apache-2.0 | 1187 | 2023-07-23 |
+| [FairwindsOps/rbac-manager](https://github.com/FairwindsOps/rbac-manager) | A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts. | Apache-2.0 | 1269 | 2023-07-26 |
+| [spotahome/redis-operator](https://github.com/spotahome/redis-operator) | Redis Operator creates/configures/manages high availability redis with sentinel automatic failover atop Kubernetes. | Apache-2.0 | 1264 | 2023-07-27 |
+| [kube-logging/logging-operator](https://github.com/kube-logging/logging-operator) | Logging operator for Kubernetes | Apache-2.0 | 1195 | 2023-07-26 |
+| [reactive-tech/kubegres](https://github.com/reactive-tech/kubegres) | Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup. | Apache-2.0 | 1188 | 2023-07-26 |
 | [pingcap/tidb-operator](https://github.com/pingcap/tidb-operator) | TiDB operator creates and manages TiDB clusters running in Kubernetes. | Apache-2.0 | 1118 | 2023-07-25 |
 | [kudobuilder/kudo](https://github.com/kudobuilder/kudo) | Kubernetes Universal Declarative Operator (KUDO) | Apache-2.0 | 1113 | 2023-07-22 |
 | [minio/operator](https://github.com/minio/operator) | Simple Kubernetes Operator for MinIO clusters :computer: | AGPL-3.0 | 968 | 2023-07-25 |
 | [mongodb/mongodb-kubernetes-operator](https://github.com/mongodb/mongodb-kubernetes-operator) | MongoDB Community Kubernetes Operator | NOASSERTION | 953 | 2023-07-25 |
-| [ansible/awx-operator](https://github.com/ansible/awx-operator) | An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible. 🤖 | Apache-2.0 | 949 | 2023-07-25 |
+| [ansible/awx-operator](https://github.com/ansible/awx-operator) | An Ansible AWX operator for Kubernetes built with Operator SDK and Ansible. 🤖 | Apache-2.0 | 949 | 2023-07-26 |
 | [jaegertracing/jaeger-operator](https://github.com/jaegertracing/jaeger-operator) | Jaeger Operator for Kubernetes simplifies deploying and running Jaeger on Kubernetes. | Apache-2.0 | 924 | 2023-07-20 |
 | [bitpoke/mysql-operator](https://github.com/bitpoke/mysql-operator) | Asynchronous MySQL Replication on Kubernetes using Percona Server and Openark's Orchestrator. | Apache-2.0 | 914 | 2023-07-25 |
-| [weaveworks/tf-controller](https://github.com/weaveworks/tf-controller) | A GitOps Terraform controller for Kubernetes | MPL-2.0 | 842 | 2023-07-25 |
-| [NVIDIA/gpu-operator](https://github.com/NVIDIA/gpu-operator) | NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes | Apache-2.0 | 836 | 2023-07-25 |
-| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | Kubernetes Operator for OpenTelemetry Collector | Apache-2.0 | 817 | 2023-07-21 |
+| [weaveworks/tf-controller](https://github.com/weaveworks/tf-controller) | A GitOps Terraform controller for Kubernetes | MPL-2.0 | 843 | 2023-07-26 |
+| [NVIDIA/gpu-operator](https://github.com/NVIDIA/gpu-operator) | NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes | Apache-2.0 | 837 | 2023-07-26 |
+| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | Kubernetes Operator for OpenTelemetry Collector | Apache-2.0 | 818 | 2023-07-26 |
 | [apache/camel-k](https://github.com/apache/camel-k) | Apache Camel K is a lightweight integration platform, born on Kubernetes, with serverless superpowers | Apache-2.0 | 777 | 2023-07-26 |
 | [coreos/vault-operator](https://github.com/coreos/vault-operator) | Run and manage Vault on Kubernetes simply and securely | Apache-2.0 | 761 | 2023-07-21 |
 | [banzaicloud/koperator](https://github.com/banzaicloud/koperator) | Oh no! Yet another Apache Kafka operator for Kubernetes | Apache-2.0 | 720 | 2023-07-25 |
 | [upmc-enterprises/elasticsearch-operator](https://github.com/upmc-enterprises/elasticsearch-operator) | manages elasticsearch clusters | NOASSERTION | 661 | 2023-06-25 |
 | [NetApp/trident](https://github.com/NetApp/trident) | Storage orchestrator for containers | Apache-2.0 | 659 | 2023-07-25 |
-| [rabbitmq/cluster-operator](https://github.com/rabbitmq/cluster-operator) | RabbitMQ Cluster Kubernetes Operator | MPL-2.0 | 649 | 2023-07-21 |
-| [kanisterio/kanister](https://github.com/kanisterio/kanister) | An extensible framework for  application-level data management on Kubernetes | Apache-2.0 | 644 | 2023-07-23 |
+| [rabbitmq/cluster-operator](https://github.com/rabbitmq/cluster-operator) | RabbitMQ Cluster Kubernetes Operator | MPL-2.0 | 650 | 2023-07-26 |
+| [kanisterio/kanister](https://github.com/kanisterio/kanister) | An extensible framework for  application-level data management on Kubernetes | Apache-2.0 | 646 | 2023-07-26 |
 | [kube-green/kube-green](https://github.com/kube-green/kube-green) | A K8s operator to reduce CO2 footprint of your clusters | MIT | 634 | 2023-07-25 |
 | [k8gb-io/k8gb](https://github.com/k8gb-io/k8gb) | A cloud native Kubernetes Global Balancer | Apache-2.0 | 625 | 2023-07-14 |
 | [grafana-operator/grafana-operator](https://github.com/grafana-operator/grafana-operator) | An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs | Apache-2.0 | 619 | 2023-07-25 |
-| [ongres/stackgres](https://github.com/ongres/stackgres) | StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there. | AGPL-3.0 | 609 | 2023-07-25 |
+| [ongres/stackgres](https://github.com/ongres/stackgres) | StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there. | AGPL-3.0 | 611 | 2023-07-27 |
 | [Azure/azure-service-operator](https://github.com/Azure/azure-service-operator) | Azure Service Operator allows you to create Azure resources using kubectl | MIT | 586 | 2023-07-23 |
-| [mysql/mysql-operator](https://github.com/mysql/mysql-operator) | MySQL Operator for Kubernetes | NOASSERTION | 572 | 2023-07-22 |
+| [mysql/mysql-operator](https://github.com/mysql/mysql-operator) | MySQL Operator for Kubernetes | NOASSERTION | 573 | 2023-07-26 |
 | [nats-io/nats-operator](https://github.com/nats-io/nats-operator) | NATS Operator | Apache-2.0 | 562 | 2023-07-19 |
 | [jenkinsci/kubernetes-operator](https://github.com/jenkinsci/kubernetes-operator) | Kubernetes native Jenkins Operator | NOASSERTION | 561 | 2023-07-25 |
 | [kubernetes-sigs/security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | The Kubernetes Security Profiles Operator | Apache-2.0 | 557 | 2023-07-24 |
-| [apache/flink-kubernetes-operator](https://github.com/apache/flink-kubernetes-operator) | Apache Flink Kubernetes Operator | Apache-2.0 | 545 | 2023-07-25 |
+| [apache/flink-kubernetes-operator](https://github.com/apache/flink-kubernetes-operator) | Apache Flink Kubernetes Operator | Apache-2.0 | 545 | 2023-07-26 |
 | [banzaicloud/istio-operator](https://github.com/banzaicloud/istio-operator) | An operator that manages Istio deployments on Kubernetes | Apache-2.0 | 533 | 2023-06-16 |
-| [OT-CONTAINER-KIT/redis-operator](https://github.com/OT-CONTAINER-KIT/redis-operator) | A golang based redis operator that will make/oversee Redis standalone/cluster/replication/sentinel mode setup on top of the Kubernetes. | Apache-2.0 | 515 | 2023-07-25 |
-| [lyft/flinkk8soperator](https://github.com/lyft/flinkk8soperator) | Kubernetes operator that provides control plane for managing Apache Flink applications | Apache-2.0 | 510 | 2023-07-20 |
+| [OT-CONTAINER-KIT/redis-operator](https://github.com/OT-CONTAINER-KIT/redis-operator) | A golang based redis operator that will make/oversee Redis standalone/cluster/replication/sentinel mode setup on top of the Kubernetes. | Apache-2.0 | 516 | 2023-07-27 |
+| [lyft/flinkk8soperator](https://github.com/lyft/flinkk8soperator) | Kubernetes operator that provides control plane for managing Apache Flink applications | Apache-2.0 | 511 | 2023-07-26 |
 | [metal3-io/baremetal-operator](https://github.com/metal3-io/baremetal-operator) | Bare metal host provisioning integration for Kubernetes | Apache-2.0 | 450 | 2023-07-19 |
 | [percona/percona-xtradb-cluster-operator](https://github.com/percona/percona-xtradb-cluster-operator) | Percona Operator for MySQL based on Percona XtraDB Cluster | Apache-2.0 | 441 | 2023-07-21 |
-| [argoproj-labs/argocd-operator](https://github.com/argoproj-labs/argocd-operator) | A Kubernetes operator for managing Argo CD clusters. | Apache-2.0 | 432 | 2023-07-25 |
+| [argoproj-labs/argocd-operator](https://github.com/argoproj-labs/argocd-operator) | A Kubernetes operator for managing Argo CD clusters. | Apache-2.0 | 433 | 2023-07-26 |
 | [hashicorp/terraform-k8s](https://github.com/hashicorp/terraform-k8s) | Terraform Cloud Operator for Kubernetes | MPL-2.0 | 426 | 2023-07-25 |
 | [tektoncd/operator](https://github.com/tektoncd/operator) | Kubernetes operator to manage installation, updation and uninstallation of tektoncd projects (pipeline, …) | Apache-2.0 | 364 | 2023-07-25 |
 | [libopenstorage/stork](https://github.com/libopenstorage/stork) | Stork - Storage Orchestration Runtime for Kubernetes | Apache-2.0 | 342 | 2023-07-25 |
@@ -77,8 +77,8 @@ This lists Operators seen in the wild and which have been updated in the last 6 
 | [datastax/cass-operator](https://github.com/datastax/cass-operator) | The DataStax Kubernetes Operator for Apache Cassandra | Apache-2.0 | 251 | 2023-07-21 |
 | [cockroachdb/cockroach-operator](https://github.com/cockroachdb/cockroach-operator) | k8s operator for CRDB | Apache-2.0 | 236 | 2023-07-25 |
 | [instaclustr/cassandra-operator](https://github.com/instaclustr/cassandra-operator) | Kubernetes operator for Apache Cassandra | Apache-2.0 | 236 | 2023-07-21 |
+| [isindir/sops-secrets-operator](https://github.com/isindir/sops-secrets-operator) | Kubernetes SOPS secrets operator | MPL-2.0 | 234 | 2023-07-26 |
 | [oracle/weblogic-kubernetes-operator](https://github.com/oracle/weblogic-kubernetes-operator) | WebLogic Kubernetes Operator | UPL-1.0 | 234 | 2023-07-18 |
-| [isindir/sops-secrets-operator](https://github.com/isindir/sops-secrets-operator) | Kubernetes SOPS secrets operator | MPL-2.0 | 232 | 2023-07-25 |
 | [openshift/hive](https://github.com/openshift/hive) | API driven OpenShift cluster provisioning and management | Apache-2.0 | 225 | 2023-07-13 |
 | [pmem/ndctl](https://github.com/pmem/ndctl) | A "device memory" enabling project encompassing tools and libraries for CXL, NVDIMMs, DAX, memory tiering and other platform memory device topics. | NOASSERTION | 221 | 2023-07-23 |
 | [arangodb/kube-arangodb](https://github.com/arangodb/kube-arangodb) | ArangoDB Kubernetes Operator - Start ArangoDB on Kubernetes in 5min | Apache-2.0 | 219 | 2023-07-17 |
@@ -95,30 +95,30 @@ This lists Operators seen in the wild and which have been updated in the last 6 
 | [percona/percona-postgresql-operator](https://github.com/percona/percona-postgresql-operator) | Percona Operator for PostgreSQL | Apache-2.0 | 169 | 2023-07-21 |
 | [kubemod/kubemod](https://github.com/kubemod/kubemod) | Universal Kubernetes mutating operator | BSD-3-Clause | 165 | 2023-06-17 |
 | [AmadeusITGroup/Redis-Operator](https://github.com/AmadeusITGroup/Redis-Operator) | Redis Operator creates/configures/manages Redis clusters atop Kubernetes | MIT | 161 | 2023-07-21 |
-| [mariadb-operator/mariadb-operator](https://github.com/mariadb-operator/mariadb-operator) | 🦭 Run and operate MariaDB in a cloud native way | MIT | 156 | 2023-07-25 |
+| [mariadb-operator/mariadb-operator](https://github.com/mariadb-operator/mariadb-operator) | 🦭 Run and operate MariaDB in a cloud native way | MIT | 158 | 2023-07-26 |
 | [knative/operator](https://github.com/knative/operator) | Combined operator for Knative. | Apache-2.0 | 152 | 2023-07-21 |
 | [ianlewis/memcached-operator](https://github.com/ianlewis/memcached-operator) | A Kubernetes operator for memcached | Apache-2.0 | 149 | 2023-06-11 |
 | [radanalyticsio/spark-operator](https://github.com/radanalyticsio/spark-operator) | Operator for managing the Spark clusters on Kubernetes and OpenShift. | Apache-2.0 | 147 | 2023-07-21 |
 | [k8ssandra/cass-operator](https://github.com/k8ssandra/cass-operator) | The DataStax Kubernetes Operator for Apache Cassandra | Apache-2.0 | 146 | 2023-07-04 |
 | [chaosblade-io/chaosblade-operator](https://github.com/chaosblade-io/chaosblade-operator) | chaosblade operator for kubernetes experiments | Apache-2.0 | 145 | 2023-07-04 |
-| [practo/k8s-worker-pod-autoscaler](https://github.com/practo/k8s-worker-pod-autoscaler) | Kubernetes autoscaler for the workers. Resource is called WPA. Queues Supported: SQS, Beanstalkd. | Apache-2.0 | 144 | 2023-07-22 |
-| [tigera/operator](https://github.com/tigera/operator) | Kubernetes operator for installing Calico and Calico Enterprise | Apache-2.0 | 144 | 2023-07-20 |
+| [practo/k8s-worker-pod-autoscaler](https://github.com/practo/k8s-worker-pod-autoscaler) | Kubernetes autoscaler for the workers. Resource is called WPA. Queues Supported: SQS, Beanstalkd. | Apache-2.0 | 145 | 2023-07-26 |
+| [tigera/operator](https://github.com/tigera/operator) | Kubernetes operator for installing Calico and Calico Enterprise | Apache-2.0 | 145 | 2023-07-26 |
 | [kloeckner-i/db-operator](https://github.com/kloeckner-i/db-operator) | The DB Operator creates databases and make them available in the cluster via Custom Resource. | Apache-2.0 | 135 | 2023-07-24 |
 | [giantswarm/aws-operator](https://github.com/giantswarm/aws-operator) | Manages Kubernetes clusters running on AWS (before Cluster API) | Apache-2.0 | 130 | 2023-06-09 |
 | [Dynatrace/dynatrace-operator](https://github.com/Dynatrace/dynatrace-operator) | Automate Kubernetes observability with Dynatrace | Apache-2.0 | 128 | 2023-07-21 |
-| [nmstate/kubernetes-nmstate](https://github.com/nmstate/kubernetes-nmstate) | Declarative node network configuration driven through Kubernetes API. | GPL-2.0 | 125 | 2023-07-10 |
+| [nmstate/kubernetes-nmstate](https://github.com/nmstate/kubernetes-nmstate) | Declarative node network configuration driven through Kubernetes API. | GPL-2.0 | 127 | 2023-07-26 |
 | [sapcc/kubernetes-operators](https://github.com/sapcc/kubernetes-operators) | Operators that automate common tasks for managing Openstack on Kubernetes. | Apache-2.0 | 121 | 2023-04-11 |
 | [movetokube/postgres-operator](https://github.com/movetokube/postgres-operator) | PostgreSQL operator for Kubernetes | MIT | 115 | 2023-07-24 |
 | [kubevirt/hyperconverged-cluster-operator](https://github.com/kubevirt/hyperconverged-cluster-operator) | Operator pattern for managing multi-operator products | Apache-2.0 | 114 | 2023-07-17 |
 | [Mellanox/network-operator](https://github.com/Mellanox/network-operator) | Mellanox Network Operator | Apache-2.0 | 113 | 2023-07-21 |
-| [SAP/sap-btp-service-operator](https://github.com/SAP/sap-btp-service-operator) | SAP BTP service operator enables developers to connect Kubernetes clusters to SAP BTP accounts and to consume SAP BTP services within the clusters by using Kubernetes native tools. | Apache-2.0 | 111 | 2023-07-09 |
+| [SAP/sap-btp-service-operator](https://github.com/SAP/sap-btp-service-operator) | SAP BTP service operator enables developers to connect Kubernetes clusters to SAP BTP accounts and to consume SAP BTP services within the clusters by using Kubernetes native tools. | Apache-2.0 | 111 | 2023-07-26 |
 | [litmuschaos/chaos-operator](https://github.com/litmuschaos/chaos-operator) | chaos engineering via kubernetes operator | Apache-2.0 | 109 | 2023-07-11 |
 | [redhat-developer/service-binding-operator](https://github.com/redhat-developer/service-binding-operator) | The Service Binding Operator: Connecting Applications with Services, in Kubernetes | Apache-2.0 | 108 | 2023-07-14 |
 | [mongodb/mongodb-atlas-kubernetes](https://github.com/mongodb/mongodb-atlas-kubernetes) | MongoDB Atlas Kubernetes Operator - Manage your MongoDB Atlas clusters from Kubernetes | Apache-2.0 | 107 | 2023-07-21 |
 | [quay/quay-operator](https://github.com/quay/quay-operator) | Operator for deploying and managing Quay | Apache-2.0 | 107 | 2023-07-21 |
 | [amaizfinance/redis-operator](https://github.com/amaizfinance/redis-operator) | Redis Operator for Kubernetes | Apache-2.0 | 106 | 2023-06-30 |
 | [linki/cloudformation-operator](https://github.com/linki/cloudformation-operator) | A Kubernetes operator for managing CloudFormation stacks via a CustomResource | MIT | 102 | 2023-06-25 |
-| [mattermost/mattermost-operator](https://github.com/mattermost/mattermost-operator) | Mattermost Operator for Kubernetes | Apache-2.0 | 97 | 2023-07-21 |
+| [mattermost/mattermost-operator](https://github.com/mattermost/mattermost-operator) | Mattermost Operator for Kubernetes | Apache-2.0 | 98 | 2023-07-26 |
 | [quay/container-security-operator](https://github.com/quay/container-security-operator) | Identify image vulnerabilities in Kubernetes pods | Apache-2.0 | 92 | 2023-06-14 |
 | [wso2/k8s-api-operator](https://github.com/wso2/k8s-api-operator) | API Operator for Kubernetes | Apache-2.0 | 92 | 2023-07-25 |
 | [noobaa/noobaa-operator](https://github.com/noobaa/noobaa-operator) | Operator for NooBaa - object data service for hybrid and multi cloud environments :cloud: :wrench: | Apache-2.0 | 90 | 2023-03-14 |
@@ -135,7 +135,7 @@ This lists Operators seen in the wild and which have been updated in the last 6 
 | [alexandrevilain/temporal-operator](https://github.com/alexandrevilain/temporal-operator) | Temporal Kubernetes Operator | Apache-2.0 | 69 | 2023-07-25 |
 | [lightbend/akka-cluster-operator](https://github.com/lightbend/akka-cluster-operator) | Run Akka Cluster applications in Kubernetes. | Apache-2.0 | 69 | 2023-07-25 |
 | [nrvnrvn/secreter](https://github.com/nrvnrvn/secreter) | Kubernetes operator and CLI tool for encrypting and managing Kubernetes secrets | Apache-2.0 | 67 | 2023-02-12 |
-| [digitalocean/do-operator](https://github.com/digitalocean/do-operator) | The Kubernetes Operator for DigitalOcean | Apache-2.0 | 62 | 2023-06-08 |
+| [digitalocean/do-operator](https://github.com/digitalocean/do-operator) | The Kubernetes Operator for DigitalOcean | Apache-2.0 | 63 | 2023-07-26 |
 | [eclipse-che/che-operator](https://github.com/eclipse-che/che-operator) | null | EPL-2.0 | 61 | 2023-07-21 |
 | [habitat-sh/habitat-operator](https://github.com/habitat-sh/habitat-operator) | A Kubernetes operator for Habitat services | Apache-2.0 | 61 | 2023-06-15 |
 | [kiali/kiali-operator](https://github.com/kiali/kiali-operator) | Kiali operator that is used to install, manage, and update Kiali deployments. | Apache-2.0 | 61 | 2023-07-25 |
@@ -195,7 +195,7 @@ This lists Operators seen in the wild and which have been updated in the last 6 
 | [jomkz/rethinkdb-operator](https://github.com/jomkz/rethinkdb-operator) | A Kubernetes operator to manage RethinkDB clusters. | Apache-2.0 | 22 | 2023-06-25 |
 | [aiven/aiven-operator](https://github.com/aiven/aiven-operator) | Provision and manage Aiven Services from your Kubernetes cluster. | Apache-2.0 | 21 | 2023-07-20 |
 | [dell/dell-csi-operator](https://github.com/dell/dell-csi-operator) | A repo for the CSI operator for all Dell storage arrays | NOASSERTION | 21 | 2023-06-19 |
-| [grafana/tempo-operator](https://github.com/grafana/tempo-operator) | Grafana Tempo Kubernetes operator | AGPL-3.0 | 19 | 2023-07-21 |
+| [grafana/tempo-operator](https://github.com/grafana/tempo-operator) | Grafana Tempo Kubernetes operator | AGPL-3.0 | 20 | 2023-07-26 |
 | [lukasz-antoniak/neo4j-operator](https://github.com/lukasz-antoniak/neo4j-operator) | Kubernetes Neo4J Operator | Apache-2.0 | 19 | 2023-04-13 |
 | [Nuance-XINFRA/zookeeper-operator](https://github.com/Nuance-XINFRA/zookeeper-operator) | Kubernetes Operator for Apache Zookeeper | Apache-2.0 | 19 | 2023-04-18 |
 | [routernetes/routernetes-operator](https://github.com/routernetes/routernetes-operator) | null | Apache-2.0 | 19 | 2023-05-02 |
@@ -230,11 +230,11 @@ This lists Operators seen in the wild and which have been updated in the last 6 
 | [Kuadrant/kuadrant-operator](https://github.com/Kuadrant/kuadrant-operator) | The Operator to install and manage the lifecycle of the Kuadrant components deployments. | Apache-2.0 | 7 | 2023-06-28 |
 | [stolostron/cluster-templates-operator](https://github.com/stolostron/cluster-templates-operator) | null | Apache-2.0 | 7 | 2023-07-21 |
 | [Kuadrant/authorino-operator](https://github.com/Kuadrant/authorino-operator) | Kubernetes Operator to manage Authorino instances | Apache-2.0 | 6 | 2023-06-28 |
+| [lsst/qserv-operator](https://github.com/lsst/qserv-operator) | Qserv Operator creates/configures/manages Qserv clusters atop Kubernetes | undefined | 6 | 2023-07-26 |
 | [thatInfrastructureGuy/vaultsync-operator](https://github.com/thatInfrastructureGuy/vaultsync-operator) | Periodically syncs secrets from various Vaults to Kubernetes Secrets.  | Apache-2.0 | 6 | 2023-03-04 |
 | [windup/windup-operator](https://github.com/windup/windup-operator) | Windup Operator for Openshift-Kubernetes | undefined | 6 | 2023-05-17 |
 | [deepfabric/elasticell-operator](https://github.com/deepfabric/elasticell-operator) | k8s operator for elasticell | undefined | 5 | 2023-02-26 |
 | [kubero-dev/kubero-operator](https://github.com/kubero-dev/kubero-operator) | An operator to run applications on Kubernetes like on Heroku | GPL-3.0 | 5 | 2023-07-18 |
-| [lsst/qserv-operator](https://github.com/lsst/qserv-operator) | Qserv Operator creates/configures/manages Qserv clusters atop Kubernetes | undefined | 5 | 2023-03-05 |
 | [parseablehq/operator](https://github.com/parseablehq/operator) | Parseable Kubernetes Operator | AGPL-3.0 | 5 | 2023-07-21 |
 | [hybrid-cloud-patterns/patterns-operator](https://github.com/hybrid-cloud-patterns/patterns-operator) | null | Apache-2.0 | 4 | 2023-07-12 |
 | [tungstenfabric/tf-operator](https://github.com/tungstenfabric/tf-operator) | null | Apache-2.0 | 4 | 2023-03-17 |
