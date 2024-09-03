@@ -1,6 +1,8 @@
 3scale-ops/external-secrets-operator
 3scale/3scale-operator
 3scale/apicast-operator
+GalleyBytes/terraform-operator
+ThinkParQ/beegfs-csi-driver
 abalki001/mariadb-operator
 aceeric/nuxeo-operator
 acmenezes/nsm-operator
@@ -52,6 +54,7 @@ che-incubator/kubernetes-image-puller-operator
 citrusframework/yaks
 clevercloud/clever-operator
 cloudflare/origin-ca-issuer
+cloudnative-pg/cloudnative-pg
 cockroachdb/cockroach-operator
 confluentinc/operator-earlyaccess
 containers-ai/federatorai-operator
@@ -93,6 +96,7 @@ external-secrets/external-secrets
 fairwindsops/rbac-manager
 falarica/steerd-presto-operator
 flant/shell-operator
+flux-iac/tofu-controller
 fluxcd/flux
 fluxcd/flux2
 fluxcd/helm-operator
@@ -102,19 +106,16 @@ giantswarm/aws-operator
 gingersnap-project/operator
 googlecloudplatform/airflow-operator
 googlecloudplatform/elcarro-oracle-operator
-googlecloudplatform/spark-on-k8s-operator
 gp42/aws-auth-operator
-grafana-operator/grafana-operator
+grafana/grafana-operator
 grafana/tempo-operator
 grtl/mysql-operator
 habitat-sh/habitat-operator
 halkyonio/operator
 hashicorp/terraform-k8s
 hazelcast/hazelcast-operator
-hazelcast/hazelcast-platform-operator
 hijak/ghost-operator
 huanwei/rocketmq-operator
-hybrid-cloud-patterns/patterns-operator
 hybridapp-io/ham-deployable-operator
 hyperfoil/horreum-operator
 hyperfoil/hyperfoil-operator
@@ -137,7 +138,6 @@ instana/instana-agent-operator
 integr8ly/gitea-operator
 interconnectedcloud/qdr-operator
 ipfs-cluster/ipfs-operator
-isaaguilar/terraform-operator
 isindir/sops-secrets-operator
 j0zi/community-operators-pipeline
 jaegertracing/jaeger-operator
@@ -161,7 +161,7 @@ kiali/kiali-operator
 kloeckner-i/db-operator
 knative/operator
 kong/kong-operator
-konveyor/tackle2-operator
+konveyor/operator
 krallistic/kafka-operator
 krestomatio/moodle-operator
 ktenzer/temporal-operator
@@ -172,6 +172,7 @@ kube-green/kube-green
 kube-incubator/redis-operator
 kube-incubator/tomcat-operator
 kube-logging/logging-operator
+kubeflow/spark-operator
 kubeflow/training-operator
 kubemod/kubemod
 kubernetes-sigs/node-feature-discovery-operator
@@ -214,7 +215,6 @@ movetokube/postgres-operator
 mysql/mysql-ndb-operator
 mysql/mysql-operator
 nats-io/nats-operator
-netapp/beegfs-csi-driver
 netapp/trident
 netobserv/network-observability-operator
 neuvector/neuvector-operator
@@ -229,7 +229,7 @@ opdev/synapse-operator
 open-accelerators/mercury
 open-policy-agent/gatekeeper
 open-telemetry/opentelemetry-operator
-openebs/helm-operator
+openebs-archive/helm-operator
 openebs/openebs
 openfaas/faas-netes
 openliberty/open-liberty-operator
@@ -290,7 +290,6 @@ searchlight/searchlight
 sematext/sematext-operator
 shipwright-io/operator
 sigstore/sigstore-helm-operator
-silicomdk/sts-operator
 sky-big/pulsar-operator
 skydive-project/skydive-golang-operator
 skylt/rabbitmq-operator
@@ -321,12 +320,12 @@ ucloud/redis-operator
 ultimaker/k8s-mongo-operator
 upmc-enterprises/elasticsearch-operator
 upmc-enterprises/kong-operator
+validatedpatterns/patterns-operator
 verfio/fortio-operator
 vertica/vertica-kubernetes
 vgkowski/cassandra-operator
 victoriametrics/operator
 vmware-tanzu/velero
-weaveworks/tf-controller
 whyseco/mailgun-operator
 wildfly/wildfly-operator
 windup/windup-operator
