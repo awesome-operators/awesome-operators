@@ -201,7 +201,7 @@ medik8s/node-healthcheck-operator
 medik8s/node-maintenance-operator
 medik8s/self-node-remediation
 mellanox/network-operator
-mesosphere/kudo-spark-operator
+d2iq-archive/kudo-spark-operator
 metal3-io/baremetal-operator
 metallb/metallb-operator
 microcks/microcks-ansible-operator
